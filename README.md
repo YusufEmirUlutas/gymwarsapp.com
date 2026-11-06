@@ -2,7 +2,7 @@
 
 The one-page website for GymWars, live at https://gymwarsapp.com/.
 
-This folder is the GitHub repository YusufEmirUlutas/gymwarsapp.com. GitHub Pages publishes whatever is on `main`, so a pushed change goes live within a minute or two. The domain is registered at Cloudflare; its DNS points the bare domain at GitHub Pages and `www` at yusufemirulutas.github.io, all "DNS only" so GitHub can issue the HTTPS certificate.
+This folder is the GitHub repository YusufEmirUlutas/gymwarsapp.com. GitHub Pages publishes whatever is on `main`, so a pushed change goes live within a minute or two. The domain is registered at Cloudflare. Its DNS points the bare domain at GitHub Pages (185.199.108-111.153) and `www` at yusufemirulutas.github.io, all **Proxied**: Cloudflare serves the HTTPS certificate (SSL/TLS mode "Full", "Always Use HTTPS" on), because GitHub's own certificate request stayed stuck at "authorization created" for 12 hours. ultasdev.com/gymwars/ forwards here.
 
 The legal pages stay on ultasdev.com (`/gymwars/privacy-policy.html`, `/gymwars/terms-of-service.html`, `/gymwars/support.html`, `/gymwars/community-guidelines.html`), and the store buttons load the shared helper from `https://ultasdev.com/assets/applink.js`, so they still open the App Store or Google Play from inside Instagram or TikTok.
 
